@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style BasedOn="{StaticResource {x:Type DataGrid}}"
+           TargetType="{x:Type DataGrid}"
+           x:Key="DatagridTheme">
+        <Setter Property="Background" Value="#212529" />
+        <Setter Property="Foreground" Value="#E4E7EB" />
+        <Setter Property="BorderBrush" Value="#343A40" />
+        <Setter Property="BorderThickness" Value="1" />
+
+        <Setter Property="RowBackground" Value="#2C3034" />
+        <Setter Property="AlternatingRowBackground" Value="#343A40" />
+        <!--<Setter Property="Row" Value="#E4E7EB" />-->
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Visible" />
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Visible" />
+
+        <!--<Setter Property="GridLinesPanel.Visibility" Value="Visible" />-->
+        <!--<Setter Property="GridLinesPanel.Background" Value="#454A4D" />-->
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontFamily" Value="Segoe UI" />
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="ComputerStore.InsertPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComputerStore"
+        mc:Ignorable="d"
+        Title="InsertPage" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="85,81,0,0" TextWrapping="Wrap" Text="Emp ID" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="85,133,0,0" TextWrapping="Wrap" Text="Emp Name" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="85,253,0,0" TextWrapping="Wrap" Text="Salary" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="85,191,0,0" TextWrapping="Wrap" Text="Emp Email" VerticalAlignment="Top" RenderTransformOrigin="0.018,-9.586"/>
+        <TextBox x:Name="IDText" HorizontalAlignment="Left" Margin="217,81,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="312"/>
+        <TextBox x:Name="NameText" HorizontalAlignment="Left" Margin="217,133,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="312"/>
+        <TextBox x:Name="EmailText" HorizontalAlignment="Left" Margin="217,191,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="312"/>
+        <TextBox x:Name="SalaryText" HorizontalAlignment="Left" Margin="217,253,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="312"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="465,302,0,0" VerticalAlignment="Top" Width="64"/>
+
+    </Grid>
+</Window>
